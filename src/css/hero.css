@@ -29,7 +29,7 @@
   color: #fff;
 }
 .title > h1 {
-  margin-top: 83px;
+  margin-top: 90px;
   margin-bottom: 0px;
   font-size: 65px;
 }
@@ -45,15 +45,29 @@
     background-size: cover;
   }
   #hero-blob {
-    width: 700px;
+    width: 50%;
     height: 500px;
     transform: translate(25%, 8%);
+  }
+  .title {
+    margin-top: 200px;
   }
   .title > h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-size: 128px;
+    font-size: 10vw;
     margin-top: 100px;
     /* text-align: center; */
+  }
+  #hero-blob {
+    transform: translate(40%, 40%);
+  }
+}
+@media screen and (min-width: 913px) {
+  .title {
+    margin-top: 0px;
+  }
+  #hero-blob {
+    transform: translate(21%, 12%);
   }
 }
