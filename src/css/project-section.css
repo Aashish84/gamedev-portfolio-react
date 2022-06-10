@@ -15,6 +15,7 @@
   max-width: 1024px;
   margin: auto;
   padding: 10px;
+  position: relative;
 }
 
 .card {
@@ -62,4 +63,24 @@
     display: block;
     padding-top: 200px;
   }
+}
+
+.social-info {
+  width: 40px;
+  position: absolute;
+  /* left: 100%; */
+  top: 30%;
+  right: 107%;
+}
+.social-icons {
+  width: 40px;
+  height: 40px;
+  margin: 5px 0px;
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 50%;
+}
+.social-icons:hover {
+  transform: scale(1.2);
+  /* fill: red; */
 }
