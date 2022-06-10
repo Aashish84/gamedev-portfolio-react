@@ -5,10 +5,11 @@ import { ReactComponent as GithubIcon } from "../image/svgs/icons8-github.svg";
 import { ReactComponent as MediumIcon } from "../image/svgs/icons8-medium.svg";
 
 export default function ProjectSection() {
+  const bgimgtest = require("../image/Dungeon-Escape.jpg");
   return (
-    <section className="project-section" id="test">
-      <h1 className="section-title">Portfolio</h1>
-      <div className="card-container">
+    <section className="project-section" id="project-section">
+      <h1 className="section-title">Projects</h1>
+      <div className="card-container container">
         <div className="social-info">
           <a href="f">
             <FacebookIcon className="social-icons" />
@@ -25,7 +26,13 @@ export default function ProjectSection() {
         </div>
         <div className="row">
           <div className="card col-4" data-tilt>
-            <div className="card-bg">
+            <div
+              className="card-bg bg"
+              style={{
+                backgroundImage: `url(${bgimgtest})`,
+                backgroundSize: "contain",
+              }}
+            >
               <div className="card-content">
                 <h1>hello</h1>
                 <p>

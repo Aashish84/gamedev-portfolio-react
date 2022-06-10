@@ -7,6 +7,7 @@ import { createRoot } from "react-dom/client";
 import "./css/hero.css";
 import "./css/project-section.css";
 import "./css/grid.css";
+import "./css/prologue-section.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);

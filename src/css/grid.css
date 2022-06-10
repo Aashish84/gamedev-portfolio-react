@@ -6,12 +6,16 @@
 .col-4 {
   flex: calc(33.33% - 18.67px) 0 0;
 }
-@media screen and (max-width: 836px) {
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
+@media screen and (max-width: 776px) {
   .row {
-    justify-content: center;
+    justify-content: center !important;
   }
   .col-4 {
-    margin-right: 10px;
     min-width: 100%;
     height: auto;
   }

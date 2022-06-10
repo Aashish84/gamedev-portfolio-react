@@ -28,9 +28,7 @@ function Header(props, ref) {
       <nav className="nav-container" ref={navToggle}>
         <ul>
           <li>
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
-              PORTFOLIO
-            </a>
+            <a href="#project-section">PROJECTS</a>
           </li>
           <li>
             <a href="https://www.w3schools.com/css/css3_transitions.asp">

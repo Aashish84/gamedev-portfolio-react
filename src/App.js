@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Hero from "./components/Hero";
+import PrologueSection from "./components/PrologueSection";
 import ProjectSection from "./components/ProjectSection";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
   return (
     <div className="wrapper" onScroll={handleScroll} ref={wrapper}>
       <Hero ref={refs} />
+      <PrologueSection />
       <ProjectSection />
     </div>
   );
