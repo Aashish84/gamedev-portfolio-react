@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Hero from "./components/Hero";
 import PrologueSection from "./components/PrologueSection";
 import ProjectSection from "./components/ProjectSection";
+import AboutSection from "./components/AboutSection";
 
 export default function App() {
   const wrapper = useRef();
@@ -25,6 +26,7 @@ export default function App() {
       <Hero ref={refs} />
       <PrologueSection />
       <ProjectSection />
+      <AboutSection />
     </div>
   );
 }

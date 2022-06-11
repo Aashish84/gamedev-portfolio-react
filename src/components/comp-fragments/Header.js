@@ -30,15 +30,13 @@ function Header(props, ref) {
           <li>
             <a href="#project-section">PROJECTS</a>
           </li>
-          <li>
+          <li title="download resume">
             <a href="https://www.w3schools.com/css/css3_transitions.asp">
               RESUME
             </a>
           </li>
           <li>
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
-              ABOUT
-            </a>
+            <a href="#about-section">ABOUT</a>
           </li>
         </ul>
       </nav>

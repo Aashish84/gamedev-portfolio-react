@@ -4,8 +4,15 @@ import { ReactComponent as InstaIcon } from "../image/svgs/icons8-instagram.svg"
 import { ReactComponent as GithubIcon } from "../image/svgs/icons8-github.svg";
 import { ReactComponent as MediumIcon } from "../image/svgs/icons8-medium.svg";
 
+import ProjectCard from "./comp-fragments/ProjectCard";
+
+import projectData from "../project-data";
+
 export default function ProjectSection() {
-  const bgimgtest = require("../image/Dungeon-Escape.jpg");
+  let projectCardElements = projectData.map((elem) => {
+    return <ProjectCard {...elem} key={elem.id} />;
+  });
+
   return (
     <section className="project-section" id="project-section">
       <h1 className="section-title">Projects</h1>
@@ -24,98 +31,7 @@ export default function ProjectSection() {
             <MediumIcon className="social-icons" />
           </a>
         </div>
-        <div className="row">
-          <div className="card col-4" data-tilt>
-            <div
-              className="card-bg bg"
-              style={{
-                backgroundImage: `url(${bgimgtest})`,
-                backgroundSize: "contain",
-              }}
-            >
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-          <div className="card col-4" data-tilt>
-            <div className="card-bg">
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-          <div className="card col-4" data-tilt>
-            <div className="card-bg">
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-          <div className="card col-4" data-tilt>
-            <div className="card-bg">
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-          <div className="card col-4" data-tilt>
-            <div className="card-bg">
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-          <div className="card col-4" data-tilt>
-            <div className="card-bg">
-              <div className="card-content">
-                <h1>hello</h1>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusantium laudantium laboriosam commodi libero quos modi non
-                  error nobis sequi iure cum perferendis at distinctio ea
-                  aspernatur quo, unde eligendi explicabo vero.
-                </p>
-                <a href="ds">seemore</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className="row">{projectCardElements}</div>
       </div>
     </section>
   );
