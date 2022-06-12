@@ -48,7 +48,7 @@
   text-align: center;
   transition: 1s;
 }
-.prologue-card:hover .prologue-content {
+/* .prologue-card:hover .prologue-content {
   box-shadow: 0px 0px 15px #000;
 }
 .prologue-card:hover {
@@ -56,7 +56,16 @@
 }
 .prologue-card:hover .prologue-icon {
   transform: scale(1.1) translateY(-10px);
-}
+} */
 
-@media screen and (max-width: 776px) {
+@media screen and (min-width: 776px) {
+  .prologue-card:hover .prologue-content {
+    box-shadow: 0px 0px 15px #000;
+  }
+  .prologue-card:hover {
+    transform: scale(1.1);
+  }
+  .prologue-card:hover .prologue-icon {
+    transform: scale(1.1) translateY(-10px);
+  }
 }

@@ -5,7 +5,7 @@
 }
 .col-4 {
   flex: calc(33.33% - 18.67px) 0 0;
-  margin-right: 15px;
+  margin-right: 18px;
 }
 .container {
   max-width: 1024px;

@@ -36,3 +36,8 @@ body {
   line-height: 1.4;
   text-align: justify;
 }
+.about-wave {
+  transform: rotate(180deg);
+  position: relative;
+  top: 10px;
+}

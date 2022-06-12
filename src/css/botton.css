@@ -4,17 +4,19 @@
 /* CSS */
 .button-67 {
   align-items: center;
-  background: #f5f5fa;
+  background: #f60000;
+  color: #fff;
   border: 0;
-  border-radius: 8px;
-  box-shadow: -7px -7px 5px 0 #f60000, 10px 10px 30px 0 #1d0dca17;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: -7px -7px 5px 0 #f5f5fa, 10px 10px 30px 0 #1d0dca17;
   box-sizing: border-box;
-  color: #2a1f62;
   cursor: pointer;
   display: flex;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
-  font-size: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
   justify-content: center;
   line-height: 1.5rem;
   position: relative;
@@ -31,8 +33,9 @@
 
 .button-67:hover {
   transform: scale(0.9);
-  background: #f60000;
-  box-shadow: -7px -7px 5px 0 #f8f8ff, 15px 15px 30px 0 #1d0dca17;
+  background: #f8f8ff;
+  box-shadow: -7px -7px 5px 0 #f60000, 15px 15px 30px 0 #1d0dca17;
+  color: #f60000;
 }
 
 /* Parent background */

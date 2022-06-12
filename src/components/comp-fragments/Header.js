@@ -15,6 +15,8 @@ function Header(props, ref) {
     z.current.classList.toggle("z");
   }
 
+  const resume = require("../../resume/nirajkarki.pdf");
+
   return (
     <header className="header-container" ref={ref}>
       <div className="header-resp">
@@ -31,7 +33,7 @@ function Header(props, ref) {
             <a href="#project-section">PROJECTS</a>
           </li>
           <li title="download resume">
-            <a href="https://www.w3schools.com/css/css3_transitions.asp">
+            <a href={resume} download>
               RESUME
             </a>
           </li>

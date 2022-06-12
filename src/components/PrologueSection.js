@@ -68,6 +68,7 @@ export default function PrologueSection() {
           </div>
         </div>
       </div>
+      <Wave className="about-wave" />
     </section>
   );
 }
