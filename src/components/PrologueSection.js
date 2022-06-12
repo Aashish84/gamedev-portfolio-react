@@ -2,6 +2,9 @@ import React from "react";
 import { ReactComponent as Wave } from "../image/svgs/wave.svg";
 
 export default function PrologueSection() {
+  const edu = require("../image/icons/education.png");
+  const skill = require("../image/icons/programming-flag.png");
+  const hobby = require("../image/icons/hobbies.png");
   return (
     <section className="prologue-section">
       <Wave />
@@ -10,9 +13,17 @@ export default function PrologueSection() {
       <div className="prologue-container container">
         <div className="row">
           <div className="prologue-card col-4">
-            <div className="prologue-icon"></div>
+            <div className="prologue-icon">
+              <div
+                className="icn"
+                style={{
+                  backgroundImage: `url(${edu})`,
+                  backgroundSize: "contain",
+                }}
+              ></div>
+            </div>
             <div className="prologue-content">
-              <h1>title</h1>
+              <h1>Education</h1>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Accusantium laudantium laboriosam commodi libero quos modi non .
@@ -20,9 +31,17 @@ export default function PrologueSection() {
             </div>
           </div>
           <div className="prologue-card col-4">
-            <div className="prologue-icon"></div>
+            <div className="prologue-icon">
+              <div
+                className="icn"
+                style={{
+                  backgroundImage: `url(${skill})`,
+                  backgroundSize: "contain",
+                }}
+              ></div>
+            </div>
             <div className="prologue-content">
-              <h1>title</h1>
+              <h1>Programming Skill</h1>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Accusantium laudantium laboriosam commodi libero quos modi non .
@@ -30,9 +49,17 @@ export default function PrologueSection() {
             </div>
           </div>
           <div className="prologue-card col-4">
-            <div className="prologue-icon"></div>
+            <div className="prologue-icon">
+              <div
+                className="icn"
+                style={{
+                  backgroundImage: `url(${hobby})`,
+                  backgroundSize: "contain",
+                }}
+              ></div>
+            </div>
             <div className="prologue-content">
-              <h1>title</h1>
+              <h1>Hobbies</h1>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Accusantium laudantium laboriosam commodi libero quos modi non .

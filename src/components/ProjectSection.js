@@ -19,16 +19,16 @@ export default function ProjectSection() {
       <div className="card-container container">
         <div className="social-info">
           <a href="f">
-            <FacebookIcon className="social-icons" />
+            <FacebookIcon className="social-icons" title="facebook" />
           </a>
           <a href="f">
-            <InstaIcon className="social-icons" />
+            <InstaIcon className="social-icons" title="instagram" />
           </a>
           <a href="f">
-            <GithubIcon className="social-icons" />
+            <GithubIcon className="social-icons" title="github" />
           </a>
           <a href="f">
-            <MediumIcon className="social-icons" />
+            <MediumIcon className="social-icons" title="medium" />
           </a>
         </div>
         <div className="row">{projectCardElements}</div>

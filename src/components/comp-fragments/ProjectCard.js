@@ -8,7 +8,7 @@ export default function ProjectCard(props) {
 
   return (
     <>
-      <div className="card col-4" data-tilt>
+      <div className="card col-4">
         <div
           className="card-bg bg"
           style={{
@@ -17,12 +17,16 @@ export default function ProjectCard(props) {
           }}
         >
           <div className="card-content">
-            <h1>{props.title}</h1>
-            <p>
-              {props.coverDesc}...
-              <i onClick={() => setIsOpen(true)}>seemore</i>
-            </p>
-            <button>play now</button>
+            <div>
+              <h1>{props.title}</h1>
+              <p className="medium-font">
+                {props.intro}...
+                <i onClick={() => setIsOpen(true)}>seemore</i>
+              </p>
+            </div>
+            <a href={props.gamelink}>
+              <button className="button-49 sm-btn">play now</button>
+            </a>
           </div>
         </div>
         <Modal open={isOpen} onClose={() => setIsOpen(false)} {...props} />

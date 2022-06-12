@@ -30,3 +30,7 @@
 .about-icons:hover {
   transform: scale(1.3);
 }
+.about-icons-container i {
+  color: #fff;
+  position: relative;
+}

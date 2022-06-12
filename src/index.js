@@ -9,6 +9,8 @@ import "./css/project-section.css";
 import "./css/grid.css";
 import "./css/prologue-section.css";
 import "./css/about-section.css";
+import "./css/modal.css";
+import "./css/botton.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
