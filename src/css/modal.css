@@ -49,7 +49,7 @@
   width: 40%;
   height: 300px;
   position: relative;
-  left: -150px;
+  left: -160px;
   background-color: #a60000;
   padding-left: 100px;
 }
@@ -102,4 +102,35 @@
   top: 0;
   left: 100%;
   z-index: 10;
+}
+@media screen and (min-width: 776px) {
+  .modal-container {
+    animation-name: modal;
+    animation-duration: 1s;
+  }
+  .modal-title {
+    animation: modalTitle 0.8s linear;
+  }
+}
+@keyframes modal {
+  from {
+    transform: translateY(100px);
+    opacity: 0.1;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes modalTitle {
+  from {
+    transform: translateX(200px);
+    opacity: 0.1;
+
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+
+  }
 }

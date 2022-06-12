@@ -70,4 +70,17 @@
   #hero-blob {
     transform: translate(21%, 12%);
   }
+  .intro {
+    animation: title 1.5s;
+  }
+}
+@keyframes title {
+  from {
+    transform: translateY(100px);
+    opacity: 0.1;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
