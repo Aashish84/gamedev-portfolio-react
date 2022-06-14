@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
           className="card-bg bg"
           style={{
             backgroundImage: `url(${bgimgtest})`,
-            backgroundSize: "contain",
+            backgroundSize: "cover",
           }}
         >
           <div className="card-content">

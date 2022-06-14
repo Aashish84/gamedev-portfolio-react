@@ -27,7 +27,7 @@ function Header(props, ref) {
           <div id="b-3" className="bars" ref={z}></div>
         </div>
       </div>
-      <nav className="nav-container" ref={navToggle}>
+      <nav className="nav-container" ref={navToggle} onClick={handleClick}>
         <ul>
           <li>
             <a href="#project-section">PROJECTS</a>

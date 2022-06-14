@@ -6,7 +6,7 @@ export default function PrologueSection() {
   const skill = require("../image/icons/programming-flag.png");
   const hobby = require("../image/icons/hobbies.png");
   return (
-    <section className="prologue-section">
+    <section className="prologue-section" id="about-section">
       <Wave />
       <h1 className="section-title">Prologue</h1>
       <h4>Welcome to my portfolio website</h4>
