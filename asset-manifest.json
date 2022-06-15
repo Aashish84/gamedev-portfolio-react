@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.0a902625.css",
-    "main.js": "/test/static/js/main.9f394e85.js",
+    "main.css": "/test/static/css/main.c5352ee9.css",
+    "main.js": "/test/static/js/main.f9e79455.js",
     "static/media/hero-bg.png": "/test/static/media/hero-bg.bbd591bdda710facca91.png",
     "static/media/2dplatformer.png": "/test/static/media/2dplatformer.45b75fd4b6afa28eb431.png",
     "static/media/hero-bg-small.png": "/test/static/media/hero-bg-small.0c6796730c3d75239728.png",
@@ -15,11 +15,11 @@
     "static/media/icons8-instagram.svg": "/test/static/media/icons8-instagram.5377a69af6808c3caf41dab7872d0a8d.svg",
     "static/media/facebook-icon.svg": "/test/static/media/facebook-icon.a01deab289eb2ed40999ead4b8c47485.svg",
     "static/media/icons8-medium.svg": "/test/static/media/icons8-medium.d7821c8a56ce64ae76415fe99110fb99.svg",
-    "main.0a902625.css.map": "/test/static/css/main.0a902625.css.map",
-    "main.9f394e85.js.map": "/test/static/js/main.9f394e85.js.map"
+    "main.c5352ee9.css.map": "/test/static/css/main.c5352ee9.css.map",
+    "main.f9e79455.js.map": "/test/static/js/main.f9e79455.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a902625.css",
-    "static/js/main.9f394e85.js"
+    "static/css/main.c5352ee9.css",
+    "static/js/main.f9e79455.js"
   ]
 }
