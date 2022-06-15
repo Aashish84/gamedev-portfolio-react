@@ -24,9 +24,6 @@ export default function ProjectCard(props) {
                 <i onClick={() => setIsOpen(true)}>seemore</i>
               </p>
             </div>
-            <a href={props.gamelink}>
-              <button className="button-49 sm-btn">play now</button>
-            </a>
           </div>
         </div>
         <Modal open={isOpen} onClose={() => setIsOpen(false)} {...props} />

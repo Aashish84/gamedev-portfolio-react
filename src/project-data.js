@@ -13,7 +13,7 @@ export default [
   {
     id: 2,
     title: "dungeon escape",
-    coverImg: "Background.png",
+    coverImg: "2dplatformer.png",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
@@ -23,7 +23,7 @@ export default [
   {
     id: 3,
     title: "dungeon escape",
-    coverImg: "Background.png",
+    coverImg: "2dplatformer.png",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
@@ -33,7 +33,7 @@ export default [
   {
     id: 4,
     title: "dungeon escape",
-    coverImg: "Background.png",
+    coverImg: "2dplatformer.png",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
@@ -43,7 +43,7 @@ export default [
   {
     id: 5,
     title: "dungeon escape",
-    coverImg: "Background.png",
+    coverImg: "2dplatformer.png",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
@@ -53,7 +53,7 @@ export default [
   {
     id: 6,
     title: "dungeon escape",
-    coverImg: "Background.png",
+    coverImg: "2dplatformer.png",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:
