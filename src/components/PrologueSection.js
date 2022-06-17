@@ -8,7 +8,7 @@ export default function PrologueSection() {
   return (
     <section className="prologue-section" id="about-section">
       <Wave />
-      <h1 className="section-title">Prologue</h1>
+      <h1>Prologue</h1>
       <h4>Welcome to my portfolio website</h4>
       <div className="prologue-container container">
         <div className="row">

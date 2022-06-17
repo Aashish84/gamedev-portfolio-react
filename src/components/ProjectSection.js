@@ -9,8 +9,8 @@ export default function ProjectSection() {
 
   return (
     <section className="project-section" id="project-section">
-      <h1 className="section-title">Projects</h1>
       <div className="card-container container">
+        <h1 className="section-title">Some things i've built</h1>
         <div className="row">{projectCardElements}</div>
       </div>
     </section>

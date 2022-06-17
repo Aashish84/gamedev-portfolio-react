@@ -13,7 +13,7 @@ export default [
   {
     id: 2,
     title: "dungeon escape",
-    coverImg: "2dplatformer.png",
+    coverImg: "de.jpg",
     date: "August, 2021",
     gamelink: "https://zeusk10.itch.io/25d-platformer",
     intro:

@@ -3,6 +3,7 @@
 }
 .prologue-section > h1 {
   margin-bottom: 10px;
+  text-align: center;
 }
 .prologue-section > h4 {
   text-align: center;
@@ -36,7 +37,7 @@
   position: relative;
   top: -45px;
   z-index: -1;
-  transition: 1s;
+  transition: 0.4s ease-in-out;
   outline: 0.2px solid #c0c0c000;
   box-shadow: -1px 10px 50px #c0c0c0;
 }
