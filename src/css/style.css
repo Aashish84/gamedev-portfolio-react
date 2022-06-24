@@ -19,11 +19,12 @@ body {
   overflow-y: scroll;
   width: 100vw;
 }
-width .wrapper::-webkit-scrollbar {
+.wrapper::-webkit-scrollbar {
   width: 10px;
+  background-color: #000;
 }
 .wrapper::-webkit-scrollbar-thumb {
-  background: #000000aa;
+  background: #ffffffaa;
   border-radius: 10px;
 }
 
@@ -41,11 +42,11 @@ width .wrapper::-webkit-scrollbar {
 }
 .medium-font {
   font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 15px;
+  font-size: 26px;
   line-height: 1.4;
   text-align: justify;
 }
-.about-wave {
+.rev-wave {
   transform: rotate(180deg);
   position: relative;
   top: 10px;
